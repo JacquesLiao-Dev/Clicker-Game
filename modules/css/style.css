@@ -1,0 +1,104 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: Trebuchet MS;
+    margin: 0;
+}
+
+#block {
+    display:flex;
+    height: 100%;
+}
+
+/* content */
+#content {
+    text-align: center;
+    flex-grow: 24;
+    background: cadetblue;
+    background-image: url(https://media.istockphoto.com/vectors/dark-rocky-cave-from-outside-vector-id961139896?k=6&m=961139896&s=612x612&w=0&h=ysX4n2pK2bjb8KpbaI36f0xFCI8t0C5Wg1xb-VCdbSg=);
+    background-size: 1107px 820px;
+}
+
+.title_content {
+    font-size: 45px;
+}
+
+#content_info {
+    background-color: rgb(252, 255, 97);
+    border-top-left-radius : 150px 100px;
+    border-top-right-radius : 150px 100px;
+    border-bottom-left-radius : 150px 100px;
+    border-bottom-right-radius : 150px 100px;
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+    border : 1px solid;
+}
+
+/* shop */
+
+[id^="image"]{
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    display: flex;
+    align-content: center;
+}
+
+#shop {
+    padding-top: 2%;
+    flex-grow: 1;
+    background: sandybrown;
+    width: 21%;
+}
+
+#title_shop {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
+[id^="content_position"]{
+    display: flex;
+    border: 1px solid red;
+    padding-top: 8px;
+}
+
+[id^="content_info"]{
+    flex-grow: 2;
+}
+
+[id^="info"]{
+    display: flex;
+}
+
+[id^="content_buy"]{
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 7px;
+}
+
+div#content button {
+    background: #0ff0;
+    border: none;
+    height: 70%;
+    margin-top: 50px;
+}
+
+button img{
+    height: 100%;
+    cursor: pointer;
+}
+
+[id^="image"]img{
+
+    width: 100%;
+}
